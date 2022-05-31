@@ -1,0 +1,26 @@
+$space: 10px;
+$space-2x: $space * 2;
+$space-3x: $space * 3;
+$space-6x: $space * 6;
+$space-12x: $space * 12;
+$space-24x: $space * 24;
+
+.mb-0,
+.my-0 {
+  margin-bottom: 0 !important;
+}
+
+.mt-0,
+.my-0 {
+  margin-top: 0 !important;
+}
+
+.pb-0,
+.py-0 {
+  padding-bottom: 0 !important;
+}
+
+.pt-0,
+.py-0 {
+  padding-top: 0 !important;
+}

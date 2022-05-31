@@ -1,0 +1,52 @@
+@use "fonts";
+@use "colors";
+
+// reset
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+img {
+  width: 100%;
+}
+
+body {
+  font-family: "Poppins", serif;
+}
+
+// scrollbar
+::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: colors.$black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: colors.$black;
+}
+
+/* firefox */
+::-moz-selection {
+  color: colors.$white;
+  background: colors.$black;
+}
+
+::selection {
+  color: colors.$white;
+  background: colors.$black;
+}

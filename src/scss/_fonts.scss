@@ -1,0 +1,19 @@
+// fonts
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+// font size
+$text-base: 16px;
+
+// font weight
+$font-regular: 400;
+$font-medium: 500;
+$font-semi-bold: 600;
+$font-bold: 700;
+
+$text-sm: $text-base * 0.875;
+$text-md: $text-base * 1.25;
+$text-lg: $text-base * 1.5;
+$text-xl: $text-base * 6;
+
+// headings
+$text-h1: $text-base * 8;

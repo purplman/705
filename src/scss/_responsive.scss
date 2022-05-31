@@ -1,0 +1,30 @@
+@media screen and (min-width: 568px) {
+  .container,
+  .divider {
+    width: 780px;
+  }
+  header {
+    background-image: url("../img/desktop-hero-model.jpg");
+  }
+  .mobile-header {
+    display: none;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container,
+  .divider {
+    width: 920px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .container,
+  .divider {
+    width: 1200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container,
+  .divider {
+    width: 1450px;
+  }
+}
